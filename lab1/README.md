@@ -1,37 +1,31 @@
 # **Lab 1 Binary Decoders, Registers, and Counters in VHDL**  
 The **Lab1** folder contains multiple exercises focusing on the design and simulation of **binary decoders, registers, and counters using VHDL**. The implementations include both **dataflow and behavioral architectures**, and all circuits are tested through simulation.  
+### **Exercise A.2: 3-to-8 Binary Decoder**  
+This exercise involves designing a **3-to-8 binary decoder**, a combinational circuit that activates exactly one of its 8 outputs based on a 3-bit input. The decoder is implemented using two architectures:  
+- **Dataflow** (Boolean expressions)  
+- **Behavioral** (`case` statement)  
 
-### **Exercise 1: 3-to-8 Binary Decoder**  
-In this exercise, we design a **3-to-8 binary decoder**, a combinational circuit that activates exactly one of its 8 outputs based on a 3-bit input. The decoder is implemented in two architectures:  
-- **Dataflow** (using Boolean expressions)  
-- **Behavioral** (using a `case` statement)  
+The circuit is simulated using **Active-HDL**, and synthesis is performed using **Leonardo Spectrum** to verify the hardware implementation.  
 
-The circuit is simulated in **Active-HDL**, and the synthesized design is verified using **Leonardo Spectrum**.  
+### **Exercise B.2: 4-bit Shift Register with Parallel Load**  
+A **4-bit shift register** is designed to support shifting in both directions. The shift direction is determined by an additional control input:  
+- **Right Shift**: Moves data towards the Least Significant Bit (LSB)  
+- **Left Shift**: Moves data towards the Most Significant Bit (MSB)  
 
-### **Exercise 2: T Flip-Flop & 4-bit Register**  
-- **T Flip-Flop**: Based on a given **D Flip-Flop**, we implement a **T Flip-Flop** with asynchronous **preset and clear** inputs. The output toggles on every clock cycle when `T = 1`.  
-- **4-bit Register with Parallel Load**: A **4-bit register** is implemented using behavioral **VHDL**, allowing data to be loaded in parallel when a control signal is active.  
+The design is implemented in **behavioral VHDL**, tested, and synthesized to analyze its performance in a hardware environment.  
 
-### **Exercise 3: 4-bit Shift Register with Left/Right Shift**  
-A **4-bit shift register** is designed to allow shifting in both directions. The shift direction is controlled by an additional input:  
-- **Right Shift**: Moves data toward the Least Significant Bit (LSB)  
-- **Left Shift**: Moves data toward the Most Significant Bit (MSB)  
+### **Exercise B.3: 3-bit Counter with Up/Down and Modulo Operation**  
+This exercise includes designing a **3-bit counter** with various functionalities:  
+- **Basic Counter**: Increments on every clock cycle when enabled.  
+- **Up/Down Counter**: Uses a control input to determine whether it counts up or down.  
+- **Modulo Counter**: Resets when it reaches a user-defined maximum value.  
 
-The implementation is tested and synthesized, ensuring correct functionality in **Active-HDL**.  
+The implementation is validated through simulation, and synthesis is performed to optimize the circuit.  
 
-### **Exercise 4: 3-bit Counter (Up, Down, and Modulo)**  
-- **Basic 3-bit Counter**: A **3-bit counter** that increments on every clock pulse when enabled.  
-- **Up/Down Counter**: A **direction-controlled counter**, counting **up or down** based on an external input.  
-- **Modulo Counter**: A counter with a user-defined maximum value (`modulo`), resetting when the count reaches the specified limit.  
-
-Simulations are performed to validate the behavior of each counter, and the synthesized results are compared for optimization.  
-
-### **Tools & Development Environment**  
-- **VHDL** for circuit design  
-- **Active-HDL** for simulation  
-- **Leonardo Spectrum** for synthesis  
-
-
+### **Development Tools & Environment**  
+- **VHDL** for hardware description  
+- **Active-HDL** for simulation and verification  
+- **Leonardo Spectrum** for hardware synthesis  
 
 ### **Further Reading**  
 For more details on the implementations and test results, refer to **report lab1-team 19.pdf**.  
