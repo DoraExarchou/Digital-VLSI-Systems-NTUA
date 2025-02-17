@@ -36,4 +36,4 @@ Simulations are performed to validate the behavior of each counter, and the synt
 
 
 ### **Further Reading**  
-For more details on the implementations and test results, refer to **lab1-report.pdf**.  
+For more details on the implementations and test results, refer to **report lab1-team 19.pdf**.  
