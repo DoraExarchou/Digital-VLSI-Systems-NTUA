@@ -1,6 +1,4 @@
-# **README - Lab 1**  
-## **Binary Decoders, Registers, and Counters in VHDL**  
-
+# ** Lab 1 Binary Decoders, Registers, and Counters in VHDL**  
 The **Lab1** folder contains multiple exercises focusing on the design and simulation of **binary decoders, registers, and counters using VHDL**. The implementations include both **dataflow and behavioral architectures**, and all circuits are tested through simulation.  
 
 ### **Exercise 1: 3-to-8 Binary Decoder**  
