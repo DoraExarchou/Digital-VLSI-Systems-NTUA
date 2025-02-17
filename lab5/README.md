@@ -11,17 +11,7 @@ The **Lab5** folder contains exercises focusing on the **implementation of an FI
 6. **Program the ZYNQ SoC FPGA and execute the application.**  
 
 ### **FIR Filter Description**  
-The **8-tap FIR filter (M=7)** follows the standard FIR equation:
-
-\[ y[n] = \sum_{k=0}^{M} h[k] \cdot x[n - k] \]
-
-where:  
-- **M**: Filter order (M=7 for 8-tap FIR).  
-- **y[n]**: Filter output at discrete time **n**.  
-- **h[k]**: k-th filter coefficient.  
-- **x[n]**: Input signal at discrete time **n**.  
-
-### **Filter Architecture Modules**  
+  **Filter Architecture Modules**  
 1. **MAC (Multiplier Accumulator Unit)**  
    - Performs the multiply-accumulate operation: `a <- a + b * c`.  
 2. **ROM (Read-Only Memory)**  
