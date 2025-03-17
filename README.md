@@ -8,8 +8,6 @@
 
 **lab4**  Implementation of FIR Filter  
 
-**lab5**  Implementation of FIR Filter with AXI Interface on Zynq SoC FPGA  
-
 **lab6**  Implementation of Debayering Filter with AXI Interface on Zynq SoC FPGA  
 
 
